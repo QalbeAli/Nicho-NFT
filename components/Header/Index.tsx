@@ -1,3 +1,4 @@
+import { ConnectButton } from '@rainbow-me/rainbowkit'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -66,14 +67,7 @@ export default function Header() {
           </ul>
           <ul className=" hidden items-center space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
-                className="bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline inline-flex h-12 items-center justify-center rounded px-6 font-medium tracking-wide text-black shadow-md transition duration-200 focus:outline-none lg:text-white"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Connect Wallet
-              </a>
+              <ConnectButton />
             </li>
           </ul>
           <div className="lg:hidden">
@@ -178,14 +172,7 @@ export default function Header() {
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="/"
-                          className="bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline text-prple inline-flex h-12 w-full items-center justify-center rounded px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Connect Wallet
-                        </a>
+                        <ConnectButton />
                       </li>
                     </ul>
                   </nav>

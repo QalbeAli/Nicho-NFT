@@ -4,7 +4,10 @@ import Head from 'next/head'
 import Collection from '../components/Collection'
 import Header from '../components/Header/Index'
 import Hero from '../components/Hero/Index'
+import Partner from '../components/Partner'
 import Video from '../components/Video'
+import Create from '../components/Create'
+import Footer from '../components/Footer'
 const Home: NextPage = () => {
   return (
     <div>
@@ -18,6 +21,9 @@ const Home: NextPage = () => {
         <Video />
       </Container>
       <Collection />
+      <Partner />
+      <Create />
+      <Footer />
     </div>
   )
 }

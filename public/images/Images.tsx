@@ -22,6 +22,10 @@ import msg from './msg.png'
 import mint from './mint.png'
 import reward from './reward.png'
 import logo from './logo.png'
+import banner from './banner.jpg'
+import man from './man.jpg'
+import avatar from './avatar.png'
+import monkey from './monkey.jpg'
 
 export default {
   h1,
@@ -48,4 +52,8 @@ export default {
   mint,
   reward,
   logo,
+  banner,
+  man,
+  avatar,
+  monkey,
 }

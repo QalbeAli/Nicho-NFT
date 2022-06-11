@@ -1,7 +1,7 @@
 import { Box, Button, Grid, Stack, Typography } from '@mui/material'
 import Image from 'next/image'
 import Images from '../../public/images/Images'
-
+import Link from 'next/link'
 export default function Hero() {
   return (
     <>
@@ -29,16 +29,21 @@ export default function Hero() {
               </Box>
               <Box py={2}>
                 <Stack direction="row" spacing={3}>
-                  <Button
-                    sx={{
-                      background:
-                        'linear-gradient(to right, #e00089 40%, #0042ff 60%)',
-                    }}
-                    variant="contained"
-                    className="btn"
-                  >
-                    Explore
-                  </Button>
+                  <Link href="/explore">
+                    <a>
+                      <Button
+                        sx={{
+                          background:
+                            'linear-gradient(to right, #e00089 40%, #0042ff 60%)',
+                        }}
+                        variant="contained"
+                        className="btn"
+                      >
+                        Explore
+                      </Button>
+                    </a>
+                  </Link>
+
                   <Button
                     variant="contained"
                     sx={{
